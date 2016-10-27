@@ -5,22 +5,22 @@
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-
   <link rel="stylesheet" href="main.css">
+
 </head>
 <body>
 
   <div class="container">
     <h1>Shopping List</h1>
-
+    <div class="hello"></div>
     <form id="js-shopping-list-form">
       <label for="shopping-list-entry">Add an item</label>
-      <input type="text" name="shopping-list-entry" id="shopping-list-entry" placeholder="e.g., broccoli">
-      <button type="submit">Add item</button>
+      <input class="input" type="text" name="shopping-list-entry" id="shopping-list-entry" placeholder="e.g., broccoli">
+      <button class="submit" type="submit">Add item</button>
     </form>
 
     <ul class="shopping-list">
-      <li>
+      <!-- <li>
         <span class="shopping-item">apples</span>
         <div class="shopping-item-controls">
           <button class="shopping-item-toggle">
@@ -63,9 +63,12 @@
             <span class="button-label">delete</span>
           </button>
         </div>
-      </li>
+      </li> -->
     </ul>
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 
 </body>
 </html>
